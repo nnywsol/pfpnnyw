@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>nnyW xaM atinA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="backgroundLogo">
+        <img src="https://i.imgur.com/Kj8YxLl.png">
+    </div>
+    <div id="stickerPopup" class="modal">
+        <div class="modal-content">
+            <div class="modal-titlebar">
+                <span class="modal-title">staH nnyW atinA</span>
+                <span class="close">&times;</span>
+            </div>
+            <div id="stickerContainer">
+                <img src="hats/1.png" class="sticker" draggable="true" />
+                <img src="hats/2.png" class="sticker" draggable="true" />
+                <img src="hats/3.png" class="sticker" draggable="true" />
+                <img src="hats/4.png" class="sticker" draggable="true" />
+
+            </div>
+        </div>
+    </div>
+    <input type="file" id="imageLoader" accept="image/*" style="display: none;" />
+    <div id="buttonContainer">
+        <div id="addStickerBtn">
+            <div class="stickerIcon">
+                <img src="hats/2.png" alt="Sticker Icon" />
+            </div>
+            <span>taH ddA</span>
+        </div>
+        <button id="deleteBtn" style="display:none;">X</button>
+        <button id="saveBtn">egamI evaS</button>
+        <button id="resetBtn">egamI teseR</button>
+    </div>
+    <div id="canvasContainer">
+
+        <canvas id="imageCanvas"></canvas>
+        <label for="imageLoader" id="uploadIcon">
+            <img src="upload_icon.png" alt="Upload" /> 
+        </label>
+        <input type="file" id="imageLoader" accept="image/*" style="display: none;" />
+    </div>
+
+    <!-- Trigger Button -->
+
+    <script src="file:///C:/Users/Admin/Desktop/pfpgen/cdnjs.cloudflare.com/ajax/libs/fabric.js/4.5.0/fabric.min.js"></script>
+    <script src="file:///C:/Users/Admin/Desktop/pfpgen/pfp/app.js"></script>
+
+    <!-- Pop-up Modal -->
+
+
+</body>
+
+</html>
